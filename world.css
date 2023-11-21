@@ -24,6 +24,7 @@ main {
 
 #controls {
     margin-bottom: 20px;
+    text-align: center; /* Center align the content within #controls */
 }
 
 label {
@@ -39,10 +40,12 @@ input {
 button {
     padding: 5px;
     cursor: pointer;
+    display: inline-block; /* Display buttons inline */
+    margin-right: 10px; /* Add some space between the buttons */
+    margin-top: 10px;
 }
 
-#result {
-    padding: 10px;
-    border: 1px solid #ddd;
-    color: black;
+#country {
+    display: block;
+    margin: 0 auto; /* Center the input field */
 }
